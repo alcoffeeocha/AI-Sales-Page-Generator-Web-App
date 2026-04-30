@@ -53,7 +53,7 @@ class HomeController extends Controller
                         'content' => "$prompt",
                     ],
                 ],
-                'model' => 'groq/compound-mini',
+                'model' => 'groq/compound',
                 'temperature' => 1,
                 'max_completion_tokens' => 1024,
                 'top_p' => 1,
